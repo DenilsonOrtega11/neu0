@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Cargar el modelo
-model = tf.keras.models.load_model('mnist-cnn.keras')
+model = tf.keras.models.load_model('neu0-cnn.keras')
 
 st.title("Analizador de estado de neumaticos")
 uploaded_file = st.file_uploader("Elige una imagen...", type="jpg")
